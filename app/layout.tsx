@@ -64,6 +64,11 @@ export default function RootLayout({
       className={`bg-white dark:bg-gray-950 text-black dark:text-white ${beVietnamPro.variable}`}
     >
       <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3849175191761535"
+          crossOrigin="anonymous"
+        />
         <HeadCodeInjection />
       </head>
       <body className={`min-h-[100dvh] bg-gradient-to-br from-blue-50 via-white to-green-50 ${beVietnamPro.className}`} suppressHydrationWarning>
